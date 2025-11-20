@@ -1,3 +1,10 @@
+def sum_items(items):
+    for item in items:
+        name = item["name"]
+        num = item["num"]
+        amount = item["amount"]
+        print(f"{name}: {num * amount}円")
+        
 def add_item(items):
     item = {"name": "クッキー", "amount": 100, "num": 3}
     items.append(item)
